@@ -19,7 +19,7 @@ window.onload = function () {
         $("button").remove();
     });
     $("#3").click(function () {
-        load(2)
+        load(3)
         $("button").remove();
     });
 }
