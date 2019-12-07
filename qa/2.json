@@ -150,7 +150,7 @@
         ]
     },
     {
-        "q": "SỰ thoát vị của các thành phần trong ổ bụng vào ngách tinh mạc chưa bị tắc và giữa các lớpcua3 thừng tinh gây ra sự thoát vị nào sau đây ?",
+        "q": "SỰ thoát vị của các thành phần trong ổ bụng vào ngách tinh mạc chưa bị tắc và giữa các lớp của thừng tinh gây ra sự thoát vị nào sau đây ?",
         "a": "Thoát vị bẹn gián tiếp",
         "n": [
             "Thoát vị rốn",
@@ -165,7 +165,7 @@
         "n": [
             "Phát sinh ngay phía trong lỗ bẹn sâu",
             "Là nhánh của động mạch chậu ngoài ngay phía trên dây chằng bẹn",
-            "Xuyên qua mạc ngang vào boa cơ thẳng bụng gần đường cung",
+            "Xuyên qua mạc ngang vào bao cơ thẳng bụng gần đường cung",
             "Cho nhánh động mạch cơ bìu"
         ]
     },
@@ -220,7 +220,7 @@
         ]
     },
     {
-        "q": "Có thể tìm thấy dây chằng nào trong các dây chằng ống bẹn ?",
+        "q": "Có thể tìm thấy dây chằng nào trong các dây chằng sau trong ống bẹn ?",
         "a": "Dây chằng tròn tử cung",
         "n": [
             "Dây chằng treo buồng trứng",
@@ -230,7 +230,7 @@
         ]
     },
     {
-        "q": "Thoát vị bẹn gián tiếp (bẩm phải) nằm ở",
+        "q": "Thoát vị bẹn gián tiếp (mắc phải) nằm ở",
         "a": "trong mạc tinh trong",
         "n": [
             "giữa mạc tinh trong và lớp cơ bìu",
@@ -271,16 +271,16 @@
     },
     {
         "q": "Hố bẹn ngoài có đặc điểm: ",
-        "a": "[1]ở thành sau ống bẹn",
+        "a": "[1] ở thành sau ống bẹn",
         "n": [
-            "[2]được giới hạn phía ngoài bởi động mạch thượng vị dưới",
-            "[3]là nơi xảy ra thoát vị bẹn trực tiếp",
+            "[2] được giới hạn phía ngoài bởi động mạch thượng vị dưới",
+            "[3] là nơi xảy ra thoát vị bẹn trực tiếp",
             "[1][3]",
             "[1][2][3]"
         ]
     },
     {
-        "q": "Nếp rồn ngoài tạo nên do phúc mạc phủ lên",
+        "q": "Nếp rốn ngoài tạo nên do phúc mạc phủ lên",
         "a": "Động mạch thượng vị dưới",
         "n": [
             "thừng động mạch rốn",
