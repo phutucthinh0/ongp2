@@ -91,11 +91,11 @@
     },
     {
         "q": "Thành phần nào không đi qua ống bẹn",
-        "a": "Động mạch cơ bìu",
+        "a": "Động mạch thượng vị dưới",
         "n": [
-            "Động mạch thượng vị dưới",
             "Thần kinh chậu bẹn",
             "Nhánh SD của thần kinh SD đùi",
+            "Động mạch cơ bìu",
             "Mạc tinh trong"
         ]
     },
@@ -174,16 +174,15 @@
         "a": "Dây chằng lược",
         "n": [
             "Dây chằng khuyết",
-            "Dây chằng lược",
             "Dây chằng gian hố",
             "Dây chằng bẹn"
         ]
     },
     {
         "q": "Trong thoát vị bẹn gián tiếp",
-        "a": "Túi thoát vị nằm ngoài mạc tinh trong",
+        "a": "Túi thoát vị chui qua lỗ bẹn sâu",
         "n": [
-            "Túi thoát vị chui qua lỗ bẹn sâu",
+            "Túi thoát vị nằm ngoài mạc tinh trong",
             "Túi thoát vị chui qua ống đùi",
             "Túi thoát vị nằm ngoài bó mạch thượng vị dưới",
             "Túi thoát vị nằm dưới dây chằng bẹn"
@@ -291,12 +290,12 @@
     },
     {
         "q": "Chỗ yếu nhất của vùng bẹn và đùi là",
-        "a": "Lỗ cơ lược",
+        "a": "Hố bẹn trong",
         "n": [
             "Tam giác bẹn",
             "Tam giác đùi",
             "Hố trên bàng quang",
-            "Hố bẹn trong"
+            "Lỗ cơ lược"
         ]
     },
     {
@@ -321,7 +320,7 @@
     },
     {
         "q": "Về mô tả ống bẹn chọn câu đúng ",
-        "a": "Thành trên ống bẹn là bờ dưới cơ chéo bụng trong và cơ ngnang bụng",
+        "a": "Thành trên ống bẹn là bờ dưới cơ chéo bụng trong và cơ ngang bụng",
         "n": [
             "Thành dưới ống bẹn là dây chằng bẹn và dây chằng lược",
             "Lỗ bẹn nông được giới hạn bởi dây chằng khuyết và dây chằng phản chiếu",

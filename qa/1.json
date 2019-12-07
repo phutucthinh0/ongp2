@@ -12,7 +12,7 @@
     {
         "q": "Khoang màng phổi có đặc điểm, NGOẠI TRỪ",
         "a": "Luôn có một lượng không khí nhất giúp hai lá màng phổi không dính nhau",
-        "n": [     
+        "n": [
             "Là khoang áo giữa hai lá màng phổi",
             "Luôn luôn kín và có áp suất âm",
             "Ở tư thế đứng, vị trí thấp nhất là ngách sườn hoành",
@@ -91,12 +91,12 @@
     },
     {
         "q": "Chọn câu ĐÚNG",
-        "a": "[4] Dây chằng phổi là do 2 lá màng phổi sát vào nhau",
+        "a": "[1,2,4] đúng",
         "n": [
             "[1] Động mạch phế quản thường tách ra ở động mạch chủ",
             "[2] Tĩnh mạch phế quản đổ vào các tĩnh mạch đơn",
             "[3] Đám rối thần kinh phổi tạo bởi thần kinh giao cảm và các nhánh thần kinh hoành",
-            "[1,2,4] đúng"
+            "[4] Dây chằng phổi là do 2 lá màng phổi sát vào nhau"
         ]
     },
     {
@@ -111,12 +111,12 @@
     },
     {
         "q": "Ở đường nách giữa, bờ dưới phổi và màng phổi lần lượt ở ngang mức các xương sườn: ",
-        "a": "10 và 12",
+        "a": "8 và 10",
         "n": [
             "6 và 8",
             "7 và 9",
             "9 và 11",
-            "8 và 10"
+            "10 và 12"
         ]
     },
     {
@@ -260,12 +260,12 @@
     },
     {
         "q": "Tất cả các đặc điểm GP sau đây xảy ra ở ngang mức góc ức (tương đương T4) TRỪ",
-        "a": "cung động mạch củ bắt đầu",
+        "a": "xương sườn thứ 3 liên tiếp khớp với xương ức",
         "n": [
             "khí quản chia đôi thành các phế quản chính Phải và Trái",
             "cung động mạch củ tận cùng",
-            "xương sườn thứ 3 liên tiếp khớp với xương ức",
-            "mốc giới hạn dưới của trung thất trên"
+            "mốc giới hạn dưới của trung thất trên",
+            "cung động mạch củ bắt đầu"
         ]
     },
     {
