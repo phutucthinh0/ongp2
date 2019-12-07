@@ -10,6 +10,10 @@ window.onload = function () {
         e_qa.innerText = "Xin lỗi bạn không phải là thành viên của tổ minh \u26A0 \nNếu đây là lỗi hãy báo cáo với admin\nCảm ơn"
         window.location.replace("login.html");
     }
+    $("#1").click(function () {
+        load(1)
+        $("button").remove();
+    });
     $("#2").click(function () {
         load(2)
         $("button").remove();
@@ -104,17 +108,21 @@ function getCookie(cname) {
     return "";
 }
 
+
+
+
+
 // var qa
 // var da
 // var ex = []
 // var count = 0;
 // window.onload = function () {
-//     $.getJSON("qa/2.json",
+//     $.getJSON("qa/1.json",
 //         function (data, textStatus, jqXHR) {
 //             qa = data
 //         }
 //     )
-//     $.getJSON("qa/2a.json",
+//     $.getJSON("qa/1a.json",
 //         function (data, textStatus, jqXHR) {
 //             da = data
 //             run()
