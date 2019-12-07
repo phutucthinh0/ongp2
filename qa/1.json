@@ -12,7 +12,7 @@
     {
         "q": "Khoang màng phổi có đặc điểm, NGOẠI TRỪ",
         "a": "Luôn có một lượng không khí nhất giúp hai lá màng phổi không dính nhau",
-        "n": [
+        "n": [     
             "Là khoang áo giữa hai lá màng phổi",
             "Luôn luôn kín và có áp suất âm",
             "Ở tư thế đứng, vị trí thấp nhất là ngách sườn hoành",
@@ -180,11 +180,11 @@
     },
     {
         "q": "Mô tả đúng về âm thanh của tim:",
-        "a": "Tiếng tim liên quan đến sự đóng mở các van tim",
+        "a": "Tiếng của van 3 lá nghe rõ nhất ở thành trước tâm thất Phải",
         "n": [
             "Các vùng nghe được tiếng tim trùng với hình chiếu của mỗi van tim trên lồng ngực",
             "Tiếng tim đầu tiên khi bắt đầu thời kì tâm trương",
-            "Tiếng của van 3 lá nghe rõ nhất ở thành trước tâm thất Phải",
+            "Tiếng tim liên quan đến sự đóng mở các van tim",
             "Tiếng van động mạch chủ nghe rõ nhất ở cạnh bờ Trái xương ức khoang gian sườn II"
         ]
     },
