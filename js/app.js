@@ -5,6 +5,13 @@ let count = 0;
 let list_qa = []
 window.onload = function () {
     e_qa = document.getElementById("question")
+    if (getCookie("login")==""){
+        $("button").remove();
+        e_qa.innerText = "Xin lỗi bạn không phải là thành viên của tổ minh \u26A0 \nNếu đây là lỗi hãy báo cáo với admin\nCảm ơn"
+        window.location.replace("login.html");
+    }else{
+        loadqa(list[dem])
+    }
     $("#2").click(function () {
         load(2)
         $("button").remove();
@@ -18,12 +25,13 @@ function load(n) {
                 list_qa[count_qa] = count_qa
                 count_qa++
             });
+            list_qa = shuffle(list_qa)
             displayqa()
         }
     );
 }
 function displayqa() {
-    // list_qa = shuffle(list_qa)
+    
     e_qa.innerText = json_qa[count].q + "  (" + count + "/" + count_qa + ")"
     var span_a = document.createElement("span")
     span_a.innerText = json_qa[count].a
@@ -81,6 +89,20 @@ function shuffle(a) {
         a[j] = x;
     }
     return a;
+}
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length,c.length);
+        }
+    }
+    return "";
 }
 
 // var qa
