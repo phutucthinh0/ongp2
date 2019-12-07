@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<body>
+    <script lang="javascript">
+    var d = new Date();
+    d.setTime(d.getTime() + (5*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = "login" + "=" + "on" + "; " + expires;
+    window.location.replace("index.html");
+    </script>
+</body>
