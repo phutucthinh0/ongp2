@@ -7,8 +7,8 @@ window.onload = function () {
     e_qa = document.getElementById("question")
     if (getCookie("login")==""){
         $("button").remove();
-        e_qa.innerText = "Xin lỗi bạn không phải là thành viên của tổ minh \u26A0 \nNếu đây là lỗi hãy báo cáo với admin\nCảm ơn"
-        // window.location.replace("login.html");
+        e_qa.innerText = "Xin lỗi bạn không phải là thành viên của tổ mình \u26A0 \nNếu đây là lỗi hãy báo cáo với admin\nCảm ơn"
+        window.location.replace("login.html");
     }
     $("#1").click(function () {
         load(1)
@@ -20,6 +20,10 @@ window.onload = function () {
     });
     $("#3").click(function () {
         load(3)
+        $("button").remove();
+    });
+    $("#4").click(function () {
+        load(4)
         $("button").remove();
     });
 }
@@ -121,12 +125,12 @@ function getCookie(cname) {
 // var ex = []
 // var count = 0;
 // window.onload = function () {
-//     $.getJSON("qa/3.json",
+//     $.getJSON("qa/4.json",
 //         function (data, textStatus, jqXHR) {
 //             qa = data
 //         }
 //     )
-//     $.getJSON("qa/3a.json",
+//     $.getJSON("qa/4a.json",
 //         function (data, textStatus, jqXHR) {
 //             da = data
 //             run()
