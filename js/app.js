@@ -30,7 +30,7 @@ function load(n) {
 }
 function displayqa() {
     
-    e_qa.innerText = json_qa[count].q + "  (" + count + "/" + count_qa + ")"
+    e_qa.innerText = json_qa[count].q + "  (" + count + "/" + (count_qa-1) + ")"
     var span_a = document.createElement("span")
     span_a.innerText = json_qa[count].a
     var answer = document.createElement("button")
@@ -39,10 +39,11 @@ function displayqa() {
     answer.addEventListener("click", function () {
         $("button").remove()
         count++
-        if (count <= count_qa) {
+        if (count <= (count_qa-1)) {
             displayqa()
         } else {
-
+            alert("Đã xong !")
+            window.location.replace("index.html");
         }
     });
     var n = json_qa[count].n
