@@ -18,6 +18,10 @@ window.onload = function () {
         load(2)
         $("button").remove();
     });
+    $("#3").click(function () {
+        load(2)
+        $("button").remove();
+    });
 }
 function load(n) {
     $.getJSON("qa/" + n + ".json",
