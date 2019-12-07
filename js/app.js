@@ -8,7 +8,7 @@ window.onload = function () {
     if (getCookie("login")==""){
         $("button").remove();
         e_qa.innerText = "Xin lỗi bạn không phải là thành viên của tổ minh \u26A0 \nNếu đây là lỗi hãy báo cáo với admin\nCảm ơn"
-        window.location.replace("login.html");
+        // window.location.replace("login.html");
     }
     $("#1").click(function () {
         load(1)
